@@ -36,6 +36,33 @@ public class MusicBox {
         return isSongPremium;
     }
 
+    public char getIsSongPremium() {
+        return isSongPremium;
+    }
+
+    public String getSongTitle() {
+        return songTitle;
+    }
+
+    public String getSongAlbum() {
+        return songAlbum;
+    }
+
+    public String getSongGenre() {
+        return songGenre;
+    }
+
+    public String getSongProducer() {
+        return songProducer;
+    }
+
+    public String getSongMusicLabel() {
+        return songMusicLabel;
+    }
+
+    public int getNoAds() {
+        return noAds;
+    }
 
     // -- TODO
         /* Create the rest of "getters" for the remaining variables */
